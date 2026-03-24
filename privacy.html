@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Blurrr</title>
+  <link rel="icon" type="image/png" href="/icon.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+    body { background: #000; }
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      pointer-events: none;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+      opacity: 0.03;
+      mix-blend-mode: overlay;
+      z-index: 9999;
+    }
+    .text-muted { color: rgba(255, 255, 255, 0.5); }
+    .border-subtle { border-color: rgba(255, 255, 255, 0.1); }
+    .bg-card { background: #080808; }
+  </style>
+</head>
+<body class="min-h-screen text-white">
+  <main class="max-w-2xl mx-auto px-6 py-16">
+    <a href="/" class="text-muted hover:text-white text-sm mb-8 inline-block transition-colors">&larr; Back</a>
+
+    <h1 class="text-4xl font-bold mb-2">Privacy Policy</h1>
+    <p class="text-muted mb-12">Last updated: March 17, 2025</p>
+
+    <div class="space-y-10 text-[15px] leading-relaxed">
+
+      <section>
+        <h2 class="text-lg font-semibold mb-4">Overview</h2>
+        <p class="text-muted">
+          Blurrr is developed by Freddy Fang. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information.
+        </p>
+        <div class="mt-4 p-4 bg-card rounded-lg border border-subtle">
+          <p class="text-sm"><strong class="text-white">The short version:</strong> <span class="text-muted">Your photos are processed entirely on your device and are never uploaded to our servers.</span></p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-4">What We Don't Collect</h2>
+        <ul class="space-y-2 text-muted">
+          <li><strong class="text-white">Photos:</strong> All processing happens locally. Your photos never leave your device.</li>
+          <li><strong class="text-white">Accounts:</strong> No account required to use the app.</li>
+          <li><strong class="text-white">Location:</strong> We don't collect location data.</li>
+          <li><strong class="text-white">Contacts:</strong> We don't access your contacts.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-4">What We Collect</h2>
+
+        <h3 class="font-medium mt-6 mb-3">Purchase Information</h3>
+        <p class="text-muted">
+          When you subscribe, we use Adapty to process transactions through Apple's App Store. This includes transaction IDs, subscription status, and a device identifier for purchase restoration. We never see your payment details.
+        </p>
+
+        <h3 class="font-medium mt-6 mb-3">Crash Reports</h3>
+        <p class="text-muted">
+          We use Sentry to collect crash reports and diagnostics: device type, OS version, app version, and error logs. This data is anonymized and contains no personal information or photos.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-4">Data Sharing</h2>
+        <p class="text-muted">We don't sell your data. We share anonymized data with:</p>
+        <ul class="mt-2 space-y-1 text-muted text-sm">
+          <li>• <strong class="text-white">Adapty</strong> for subscription management</li>
+          <li>• <strong class="text-white">Sentry</strong> for crash reporting</li>
+          <li>• <strong class="text-white">Apple</strong> for App Store transactions</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-4">Your Rights</h2>
+        <p class="text-muted">
+          You may request access, correction, or deletion of your data. Contact us at <a href="mailto:ffangcreative@gmail.com" class="text-white hover:underline">ffangcreative@gmail.com</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-4">Children's Privacy</h2>
+        <p class="text-muted">
+          The app is not directed to children under 13. We don't knowingly collect information from children.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-4">Changes</h2>
+        <p class="text-muted">
+          We may update this policy. Changes will be posted here with an updated date.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold mb-4">Contact</h2>
+        <p class="text-muted">
+          Questions? Email <a href="mailto:ffangcreative@gmail.com" class="text-white hover:underline">ffangcreative@gmail.com</a>
+        </p>
+      </section>
+
+    </div>
+
+    <div class="mt-16 pt-8 border-t border-subtle text-center text-sm text-muted" style="opacity: 0.4;">
+      <a href="/" class="hover:text-white transition-colors">Blurrr</a> &copy; 2025 Freddy Fang
+    </div>
+  </main>
+</body>
+</html>
